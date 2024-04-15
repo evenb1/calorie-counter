@@ -15,6 +15,6 @@ function cleanInputString(str) {
     return str.match(regex);
 
 }
-function addEntry(){
-    const targetId = '#' + entryDropdown.value;
-    const targetInputContainer = document.querySelector(`${targetId} .input-container`);}
+function addEntry() {
+    const targetInputContainer = document.querySelector(`#${entryDropdown.value} .input-container`);
+  }
